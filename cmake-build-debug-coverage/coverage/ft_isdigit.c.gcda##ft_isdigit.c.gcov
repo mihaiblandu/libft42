@@ -1,0 +1,26 @@
+        -:    0:Source:/home/mihai/libft/is/ft_isdigit.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/is/ft_isdigit.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/is/ft_isdigit.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/21 23:17:45 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/21 23:19:36 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+    #####:   13:int     ft_isdigit(int c)
+        -:   14:{
+    #####:   15:    return (c >= '0' && c <= '9');
+    %%%%%:   15-block  0
+    %%%%%:   15-block  1
+    %%%%%:   15-block  2
+    %%%%%:   15-block  3
+    %%%%%:   15-block  4
+        -:   16:}
+        -:   17:

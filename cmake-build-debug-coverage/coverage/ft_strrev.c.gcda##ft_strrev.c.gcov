@@ -1,0 +1,39 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strrev.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strrev.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strrev.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strrev.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/23 14:22:31 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/23 14:28:33 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+        2:   15:char* ft_strrev(char *s)
+        -:   16:{
+        -:   17:    int     i;
+        -:   18:    int     len;
+        -:   19:    char    c;
+        -:   20:
+        2:   21:    i = 0;
+        2:   22:    len = strlen(s) - 1;
+       24:   23:    while(i <= (len / 2))
+        2:   23-block  0
+       24:   23-block  1
+        -:   24:    {
+       22:   25:        c = s[i];
+       22:   26:        s[i] = s[len - i];
+       22:   27:        s[len - i] = c;
+       22:   28:        i++;
+       22:   28-block  0
+        -:   29:    }
+        2:   30:    return (s);
+        2:   30-block  0
+        -:   31:}

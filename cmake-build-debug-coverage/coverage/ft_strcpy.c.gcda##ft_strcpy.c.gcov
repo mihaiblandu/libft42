@@ -1,0 +1,35 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strcpy.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strcpy.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strcpy.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/05 17:02:34 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/05 17:19:25 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:char	*ft_strcpy(char *dst, const char *src)
+        -:   16:{
+        -:   17:    int i;
+        -:   18:
+    #####:   19:	i = 0;
+    #####:   20:	while (src[i])
+    %%%%%:   20-block  0
+    %%%%%:   20-block  1
+        -:   21:	{
+    #####:   22:		dst[i] = src[i];
+    #####:   23:		i++;
+    %%%%%:   23-block  0
+        -:   24:	}
+    #####:   25:	dst[i] = '\0';
+    #####:   26:	return (dst);
+    %%%%%:   26-block  0
+        -:   27:}

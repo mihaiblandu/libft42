@@ -1,0 +1,23 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strstr.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strstr.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strstr.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strstr.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/21 20:59:34 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/21 22:59:46 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:char*       ft_strstr(const char *str, const char *sub)
+        -:   16:{
+    #####:   17:    return ft_strnstr(str,sub,ft_strlen(str));
+    %%%%%:   17-block  0
+        -:   18:}

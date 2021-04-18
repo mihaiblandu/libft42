@@ -1,0 +1,23 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strdel.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strdel.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strdel.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strdel.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/05 19:15:26 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/05 19:46:17 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:void		ft_strdel(char **as)
+        -:   16:{
+    #####:   17:	ft_memdel((void**)as);
+    %%%%%:   17-block  0
+    #####:   18:}

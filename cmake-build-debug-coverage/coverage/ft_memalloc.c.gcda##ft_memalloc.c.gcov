@@ -1,0 +1,23 @@
+        -:    0:Source:/home/mihai/libft/mem/ft_memalloc.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/mem/ft_memalloc.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/mem/ft_memalloc.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_memalloc.c                                      :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/22 02:42:47 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/22 02:44:32 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:char	*ft_memalloc(size_t size)
+        -:   16:{
+    #####:   17:	return ((char *)ft_calloc(1,size));
+    %%%%%:   17-block  0
+        -:   18:}

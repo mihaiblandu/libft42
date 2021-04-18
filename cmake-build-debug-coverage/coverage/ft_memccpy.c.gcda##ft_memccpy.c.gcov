@@ -1,0 +1,42 @@
+        -:    0:Source:/home/mihai/libft/mem/ft_memccpy.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/mem/ft_memccpy.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/mem/ft_memccpy.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_memccpy.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/04 14:45:36 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/04 14:47:52 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:void		*ft_memccpy(void *dst, const void *src, int c, size_t n)
+        -:   16:{
+        -:   17:	size_t	i;
+        -:   18:	char	*dst2;
+        -:   19:	char	*src2;
+        -:   20:
+    #####:   21:	i = 0;
+    #####:   22:	dst2 = (char *)dst;
+    #####:   23:	src2 = (char *)src;
+    #####:   24:	while (i < n)
+    %%%%%:   24-block  0
+    %%%%%:   24-block  1
+        -:   25:	{
+    #####:   26:		dst2[i] = src2[i];
+    #####:   27:		if ((unsigned char)src2[i] == (unsigned char)c)
+    %%%%%:   27-block  0
+    #####:   28:			return ((char *)dst + i + 1);
+    %%%%%:   28-block  0
+    #####:   29:		i++;
+    %%%%%:   29-block  0
+        -:   30:	}
+    #####:   31:	return (NULL);
+    %%%%%:   31-block  0
+        -:   32:}

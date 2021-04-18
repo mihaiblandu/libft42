@@ -1,0 +1,24 @@
+        -:    0:Source:/home/mihai/libft/put/ft_putendl_fd.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/put/ft_putendl_fd.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/put/ft_putendl_fd.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/23 11:49:47 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/23 12:32:30 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:void	ft_putendl_fd(char const *s, int fd)
+        -:   16:{
+    #####:   17:	write(fd, s, ft_strlen(s));
+    %%%%%:   17-block  0
+    #####:   18:    write(fd,"\n",1);
+    #####:   19:}

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mihai/libft/get_next_line/get_next_line.c
+z3.h
+-
+../libft.h
+/home/mihai/libft/libft.h
+
+/home/mihai/libft/get_next_line/get_next_line.h
+
+/home/mihai/libft/libft.h
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+lst/list.h
+/home/mihai/libft/lst/list.h
+string/string_functions.h
+/home/mihai/libft/string/string_functions.h
+get_next_line/get_next_line.h
+/home/mihai/libft/get_next_line/get_next_line.h
+
+/home/mihai/libft/lst/list.h
+
+/home/mihai/libft/string/string_functions.h
+

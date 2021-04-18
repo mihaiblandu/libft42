@@ -1,0 +1,38 @@
+        -:    0:Source:/home/mihai/libft/mem/ft_memcpy.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/mem/ft_memcpy.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/mem/ft_memcpy.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/04 12:20:37 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/05 18:17:51 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:void	*ft_memcpy(void *dst, const void *src, size_t n)
+        -:   16:{
+        -:   17:	size_t	i;
+        -:   18:	char	*d;
+        -:   19:	char	*s;
+        -:   20:
+    #####:   21:	i = 0;
+    #####:   22:	d = (char *)dst;
+    #####:   23:	s = (char *)src;
+    #####:   24:	while (i < n)
+    %%%%%:   24-block  0
+    %%%%%:   24-block  1
+        -:   25:	{
+    #####:   26:		d[i] = s[i];
+    #####:   27:		i++;
+    %%%%%:   27-block  0
+        -:   28:	}
+    #####:   29:	return (dst);
+    %%%%%:   29-block  0
+        -:   30:}

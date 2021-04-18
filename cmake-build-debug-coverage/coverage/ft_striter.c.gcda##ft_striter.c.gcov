@@ -1,0 +1,26 @@
+        -:    0:Source:/home/mihai/libft/striter/ft_striter.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/striter/ft_striter.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/striter/ft_striter.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_striter.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/22 19:30:46 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/22 21:00:23 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:void    ft_striter(char *s, void (*f)(char *))
+        -:   16:{   
+    #####:   17:    while (*s)
+    %%%%%:   17-block  0
+    %%%%%:   17-block  1
+    #####:   18:        f(&*s++);
+    %%%%%:   18-block  0
+    #####:   19:}

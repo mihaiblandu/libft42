@@ -1,0 +1,27 @@
+        -:    0:Source:/home/mihai/libft/is/ft_isalnum.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/is/ft_isalnum.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/is/ft_isalnum.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   is_alnum.c                                         :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/21 23:27:31 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/21 23:30:07 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:int     ft_isalnum(int c)
+        -:   16:{
+    #####:   17:    return (ft_isalpha(c) || ft_isdigit(c));
+    %%%%%:   17-block  0
+    %%%%%:   17-block  1
+    %%%%%:   17-block  2
+    %%%%%:   17-block  3
+    %%%%%:   17-block  4
+        -:   18:}

@@ -1,0 +1,23 @@
+        -:    0:Source:/home/mihai/libft/put/ft_putchar_fd.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/put/ft_putchar_fd.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/put/ft_putchar_fd.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/23 11:49:34 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/23 11:49:35 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:void ft_putchar_fd(char c,int fd)
+        -:   16:{
+    #####:   17:    write(fd,&c,1);
+    %%%%%:   17-block  0
+    #####:   18:}

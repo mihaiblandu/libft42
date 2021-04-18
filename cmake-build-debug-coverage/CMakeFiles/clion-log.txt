@@ -1,0 +1,4 @@
+/snap/clion/137/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G "CodeBlocks - Unix Makefiles" /home/mihai/libft
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mihai/libft/cmake-build-debug-coverage

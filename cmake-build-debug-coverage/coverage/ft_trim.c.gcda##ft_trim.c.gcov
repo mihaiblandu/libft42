@@ -1,0 +1,14 @@
+        -:    0:Source:/home/mihai/libft/str/ft_trim.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_trim.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_trim.c.gcda
+        -:    0:Runs:1
+        -:    1:#include "../libft.h"
+        -:    2:
+        1:    3:char* ft_trim(char *s)
+        -:    4:{
+        1:    5:    ft_strtriml(s);
+        1:    5-block  0
+        1:    6:    ft_strtrimr(s);
+        -:    7:
+        1:    8:    return (s);
+        -:    9:}

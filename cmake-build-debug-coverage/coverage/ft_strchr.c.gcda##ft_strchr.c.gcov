@@ -1,0 +1,39 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strchr.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strchr.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strchr.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strchr.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/21 19:21:48 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/21 19:33:30 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+    #####:   14:char*   ft_strchr(const char *s, int c)
+        -:   15:{
+        -:   16:    char    a;
+        -:   17:
+    #####:   18:    a = (char)c;
+    %%%%%:   18-block  0
+        -:   19:    while (1)
+        -:   20:    {
+    #####:   21:        if (*s == a)
+    %%%%%:   21-block  0
+    #####:   22:            return ((char *)s);
+    %%%%%:   22-block  0
+    #####:   23:        if (!*s)
+    %%%%%:   23-block  0
+    #####:   24:            break;
+    %%%%%:   24-block  0
+    #####:   25:        s++;
+    %%%%%:   25-block  0
+        -:   26:    }
+    #####:   27:    return (NULL);
+    %%%%%:   27-block  0
+        -:   28:}

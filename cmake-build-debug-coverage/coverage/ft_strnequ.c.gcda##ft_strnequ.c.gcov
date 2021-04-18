@@ -1,0 +1,23 @@
+        -:    0:Source:/home/mihai/libft/strequ/ft_strnequ.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/strequ/ft_strnequ.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/strequ/ft_strnequ.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strnequ.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/22 23:39:08 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/22 23:40:22 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:int ft_strnequ(char const *s1, char const *s2, size_t n)
+        -:   16:{
+    #####:   17:    return ((ft_strncmp(s1,s2,n) ? 0 : 1 ));  
+    %%%%%:   17-block  0
+        -:   18:}

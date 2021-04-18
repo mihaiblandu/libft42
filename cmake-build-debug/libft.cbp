@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libft"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mihai/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mihai/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mihai/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libft">
+				<Option output="/home/mihai/libft/cmake-build-debug/libft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mihai/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mihai/libft/."/>
+					<Add directory="/home/mihai/libft/get_next_line"/>
+					<Add directory="/home/mihai/libft/lst"/>
+					<Add directory="/home/mihai/libft/string"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libft/fast">
+				<Option output="/home/mihai/libft/cmake-build-debug/libft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mihai/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mihai/libft/."/>
+					<Add directory="/home/mihai/libft/get_next_line"/>
+					<Add directory="/home/mihai/libft/lst"/>
+					<Add directory="/home/mihai/libft/string"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mihai/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mihai/libft/CMakeLists.txt">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/arr/arrays.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/arr/ft_min.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/file/ft_fclose.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/file/ft_fcreate.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/file/ft_fopen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/get_next_line/get_next_line.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/get_next_line/get_next_line.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/get_next_line/message_queue.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/get_next_line/queue.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/get_next_line/queue.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/get_next_line/queue_op.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/is/ft_isalnum.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/is/ft_isalpha.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/is/ft_isascii.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/is/ft_isblank.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/is/ft_isdigit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/is/ft_isprint.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/is/ft_isspace.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/libft.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstadd_back.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstadd_front.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstclear.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstdelone.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstiter.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstlast.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstmap.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstnew.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/ft_lstsize.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/lst/list.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/main.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/math/fibonacci.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/math/math.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/math/math.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_bzero.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_calloc.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memalloc.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memccpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memcpy1.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memmove.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/mem/ft_memset.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_itoa.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_print_bits.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_putchar.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_putchar_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_putendl.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_putendl_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_putnbr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_putnbr_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_putstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_putstr_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_split.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/put/ft_strsplit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strclr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strdup.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strlcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strlcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strlen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strncmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strncpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strndup.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strnew.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strnlen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strnstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strrchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strrev.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strtriml.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_strtrimr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/str/ft_trim.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strarr/ft_contains.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strarr/ft_count_words.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strarr/ft_cwchar.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strarr/sizearr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strequ/ft_strequ.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strequ/ft_strnequ.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/ft_str_is_alpha.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/ft_str_is_empty.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/ft_str_is_lowercase.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/ft_str_is_numeric.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/ft_str_is_printable.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/ft_strupcase.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/remove_spaces.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/replace_char.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/replace_with_space.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/string/string_functions.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/striter/ft_striter.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/striter/ft_striterator.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/striter/ft_striteri.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/striter/ft_strmap.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/striter/ft_strmapi.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strsub/ft_strjoin.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strsub/ft_strsub.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strsub/ft_strtrim.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/strsub/ft_substr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/to/ft_atoi.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/to/ft_atoi_max.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/to/ft_tolower.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/to/ft_toupper.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/tree/binary_tree_with_array.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/tree/rb_tree.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/tree/tree.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/tree/tree.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/tree/tree_construct.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/tree/tree_construct_i.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/tree/tree_i.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/tree/tree_straversal.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/mihai/libft/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

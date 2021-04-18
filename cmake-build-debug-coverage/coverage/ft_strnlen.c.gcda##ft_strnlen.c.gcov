@@ -1,0 +1,35 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strnlen.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strnlen.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strnlen.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strnlen.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/21 17:00:17 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/21 17:08:18 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:size_t	ft_strnlen(const char *s, size_t maxlen)
+        -:   16:{
+        -:   17:	size_t i;
+        -:   18:
+    #####:   19:	i = 0;
+    #####:   20:	while (i < maxlen)
+    %%%%%:   20-block  0
+    %%%%%:   20-block  1
+        -:   21:	{
+    #####:   22:		if (s[i] == '\0')
+    %%%%%:   22-block  0
+    #####:   23:			break;
+    %%%%%:   23-block  0
+        -:   24:	}
+    #####:   25:	return (i);
+    %%%%%:   25-block  0
+        -:   26:}

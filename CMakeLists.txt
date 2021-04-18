@@ -1,0 +1,124 @@
+cmake_minimum_required(VERSION 3.17)
+project(libft)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories(get_next_line)
+include_directories(lst)
+include_directories(string)
+
+add_executable(libft
+        get_next_line/get_next_line.c
+        get_next_line/message_queue.c
+        get_next_line/queue_op.c
+        is/ft_isalnum.c
+        is/ft_isalpha.c
+        is/ft_isascii.c
+        is/ft_isblank.c
+        is/ft_isdigit.c
+        is/ft_isprint.c
+        is/ft_isspace.c
+        lst/ft_lstmap.c
+        lst/ft_lstadd_back.c
+        lst/ft_lstadd_front.c
+        lst/ft_lstclear.c
+        lst/ft_lstdelone.c
+        lst/ft_lstiter.c
+        lst/ft_lstlast.c
+        lst/ft_lstnew.c
+        lst/ft_lstsize.c
+        lst/list.h
+        mem/ft_bzero.c
+        mem/ft_calloc.c
+        mem/ft_memalloc.c
+        mem/ft_memccpy.c
+        mem/ft_memchr.c
+        mem/ft_memcmp.c
+        mem/ft_memcpy.c
+        mem/ft_memcpy1.c
+        mem/ft_memdel.c
+        mem/ft_memmove.c
+        mem/ft_memset.c
+        put/ft_itoa.c
+        put/ft_putchar.c
+        put/ft_putchar_fd.c
+        put/ft_putendl.c
+        put/ft_putendl_fd.c
+        put/ft_putnbr.c
+        put/ft_putnbr_fd.c
+        put/ft_putstr.c
+        put/ft_putstr_fd.c
+        put/ft_split.c
+        put/ft_strsplit.c
+        str/ft_strcat.c
+        str/ft_strchr.c
+        str/ft_strclr.c
+        str/ft_strcmp.c
+        str/ft_strcpy.c
+        str/ft_strdel.c
+        str/ft_strdup.c
+        str/ft_strlcat.c
+        str/ft_strlcpy.c
+        str/ft_strlen.c
+        str/ft_strncmp.c
+        str/ft_strncpy.c
+        str/ft_strnew.c
+        str/ft_strnlen.c
+        str/ft_strnstr.c
+        str/ft_strrchr.c
+        str/ft_strrev.c
+        str/ft_strstr.c
+        str/ft_strtriml.c
+        str/ft_strtrimr.c
+        str/ft_trim.c
+        str/ft_strndup.c
+        strarr/ft_count_words.c
+        strarr/ft_cwchar.c
+        strequ/ft_strequ.c
+        strequ/ft_strnequ.c
+        strarr/sizearr.c
+        strarr/ft_contains.c
+        string/ft_strupcase.c
+        string/ft_str_is_alpha.c
+        string/ft_str_is_empty.c
+        string/ft_str_is_lowercase.c
+        string/ft_str_is_numeric.c
+        string/ft_str_is_printable.c
+        string/remove_spaces.c
+        string/replace_char.c
+        string/replace_with_space.c
+        string/string_functions.h
+        striter/ft_striter.c
+        striter/ft_striterator.c
+        striter/ft_striteri.c
+        striter/ft_strmap.c
+        striter/ft_strmapi.c
+        strsub/ft_strjoin.c
+        strsub/ft_strsub.c
+        strsub/ft_strtrim.c
+        strsub/ft_substr.c
+        to/ft_atoi.c
+        to/ft_atoi_max.c
+        to/ft_tolower.c
+        to/ft_toupper.c
+        file/ft_fclose.c
+        file/ft_fopen.c
+        tree/tree.c
+        tree/tree_i.c
+        tree/tree_straversal.c
+        tree/tree_construct.c
+        tree/tree_construct_i.c
+        tree/binary_tree_with_array.c
+        CMakeLists.txt
+        libft.h
+        math/fibonacci.c
+        arr/ft_min.c arr/arrays.h
+        tree/tree.h
+        tree/tree.c
+        math/fibonacci.c
+        math/math.h
+        tree/binary_tree_with_array.c
+        tree/tree_straversal.c
+        tree/tree_construct.c
+        math/math.c file/ft_fcreate.c put/ft_print_bits.c main.c tree/rb_tree.c get_next_line/queue.c)

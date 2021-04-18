@@ -1,0 +1,36 @@
+        -:    0:Source:/home/mihai/libft/main/main.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/main/main.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/main/main.c.gcda
+        -:    0:Runs:1
+        -:    1:
+        -:    2:#include "../libft.h"
+        -:    3:#include <stdio.h>
+        -:    4:
+    #####:    5:void doit(unsigned int i, char s){
+    #####:    6:    printf(">>%i : %c\n",i, s);
+    %%%%%:    6-block  0
+    #####:    7:}
+        -:    8:
+    #####:    9:char caesar(char s){
+    #####:   10:    return (s + 13);
+    %%%%%:   10-block  0
+        -:   11:}
+        1:   12:int main()
+        -:   13:{
+        -:   14:    //void (*fun_ptr)(unsigned int i,char s) = &doit;
+        1:   15:    char str[99] = "                    112233 77 777 77      ";
+        -:   16:    //char  *temp = ft_strnew(ft_strlen(&str));
+        1:   17:    char s[99] = "                    112233 77 777 77      ";
+        1:   18:    printf("%i\n",((int)ft_strlen(str)));
+        1:   18-block  0
+        -:   19:    //temp = ft_strcpy(temp,str);
+        -:   20:
+        -:   21:    //ft_striterator("Some string to printed !",fun_ptr);
+        -:   22:    //printf("%s\n",:ft_str:map("Code id",&caesar));
+        -:   23:   // printf(">>%s$",ft_strtrimr(str));
+        -:   24:   // printf("%s$",ft_strtriml(str));
+        -:   25:   // printf("%s",s);
+        1:   26:    printf("\n%s\n",ft_itoa(1));
+        1:   27:    printf("\n%s\n",ft_trim(s));
+        1:   28:    return (0);
+        -:   29:}

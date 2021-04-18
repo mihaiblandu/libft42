@@ -1,0 +1,25 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strclr.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strclr.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strclr.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strclr.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/22 02:52:27 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/22 02:57:02 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:void	ft_strclr(char *s)
+        -:   16:{
+    #####:   17:	if (s)
+    %%%%%:   17-block  0
+    #####:   18:		ft_bzero(s, ft_strlen(s));
+    %%%%%:   18-block  0
+    #####:   19:}

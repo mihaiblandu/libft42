@@ -1,0 +1,43 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strcmp.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strcmp.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strcmp.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strcmp.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/05 17:38:35 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/05 17:45:02 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:int					ft_strcmp(const char *s1, const char *s2)
+        -:   16:{
+        -:   17:	unsigned char	*a;
+        -:   18:	unsigned char	*b;
+        -:   19:
+    #####:   20:	a = (unsigned char *)s1;
+    #####:   21:	b = (unsigned char *)s2;
+    #####:   22:	while (*a || *b)
+    %%%%%:   22-block  0
+    %%%%%:   22-block  1
+    %%%%%:   22-block  2
+        -:   23:	{
+    #####:   24:		if (*a != *b)
+    %%%%%:   24-block  0
+        -:   25:		{
+    #####:   26:			return (*a - *b);
+    %%%%%:   26-block  0
+        -:   27:		}
+    #####:   28:		a++;
+    #####:   29:		b++;
+    %%%%%:   29-block  0
+        -:   30:	}
+    #####:   31:	return (0);
+    %%%%%:   31-block  0
+        -:   32:}

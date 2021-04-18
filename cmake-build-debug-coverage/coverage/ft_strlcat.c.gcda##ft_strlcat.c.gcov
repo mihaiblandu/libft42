@@ -1,0 +1,70 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strlcat.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strlcat.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strlcat.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/05 21:26:25 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/21 17:26:45 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:#include <string.h>
+        -:   15:
+    #####:   16:size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
+        -:   17:{
+        -:   18:	size_t	i;
+        -:   19:	size_t	len;
+        -:   20:
+    #####:   21:	i = 0;
+    #####:   22:	len = (ft_strlen(dst) < dstsize) ? ft_strlen(dst) : dstsize;
+    %%%%%:   22-block  0
+    %%%%%:   22-block  1
+    %%%%%:   22-block  2
+    #####:   23:	len += ft_strlen(src);
+    %%%%%:   23-block  0
+    #####:   24:	if (dstsize)
+        -:   25:	{
+    #####:   26:		while (*dst)
+    %%%%%:   26-block  0
+    %%%%%:   26-block  1
+        -:   27:		{
+    #####:   28:			dst++;
+    #####:   29:			i++;
+    %%%%%:   29-block  0
+        -:   30:		}
+    #####:   31:		while (*src && i < (dstsize - 1))
+    %%%%%:   31-block  0
+    %%%%%:   31-block  1
+    %%%%%:   31-block  2
+        -:   32:		{
+    #####:   33:			*dst++ = *src++;
+    #####:   34:			i++;
+    %%%%%:   34-block  0
+        -:   35:		}
+    #####:   36:		*dst = '\0';
+    %%%%%:   36-block  0
+        -:   37:	}
+    #####:   38:	return (len);
+    %%%%%:   38-block  0
+        -:   39:}
+        -:   40:
+        -:   41:/* size_t		ft_strlcat(char * restrict dst, const char * restrict src, size_t maxlen) {
+        -:   42:    const size_t srclen = ft_strlen(src);
+        -:   43:    const size_t dstlen = ft_strnlen(dst, maxlen);
+        -:   44:    if (dstlen == maxlen) return maxlen+srclen;
+        -:   45:    if (srclen < maxlen-dstlen) {
+        -:   46:        ft_memcpy(dst+dstlen, src, srclen+1);
+        -:   47:    } else {
+        -:   48:        ft_memcpy(dst+dstlen, src, maxlen-1);
+        -:   49:        dst[dstlen+maxlen-1] = '\0';
+        -:   50:    }
+        -:   51:    return dstlen + srclen;
+        -:   52:}
+        -:   53: */

@@ -1,0 +1,45 @@
+        -:    0:Source:/home/mihai/libft/mem/ft_memmove.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/mem/ft_memmove.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/mem/ft_memmove.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_memmove.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/05 11:34:27 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/05 14:58:30 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:void	*ft_memmove(void *dst, const void *src, size_t len)
+        -:   16:{
+        -:   17:	unsigned char *d;
+        -:   18:	unsigned char *s;
+        -:   19:
+    #####:   20:	d = (unsigned char *)dst;
+    #####:   21:	s = (unsigned char *)src;
+    #####:   22:	if (d < s)
+    %%%%%:   22-block  0
+    #####:   23:		while (len--)
+    %%%%%:   23-block  0
+    %%%%%:   23-block  1
+    #####:   24:			*d++ = *s++;
+    %%%%%:   24-block  0
+        -:   25:	else
+        -:   26:	{
+    #####:   27:		d += len;
+    #####:   28:		s += len;
+    #####:   29:		while (len--)
+    %%%%%:   29-block  0
+    %%%%%:   29-block  1
+    #####:   30:			*--d = *--s;
+    %%%%%:   30-block  0
+        -:   31:	}
+    #####:   32:	return (dst);
+    %%%%%:   32-block  0
+        -:   33:}

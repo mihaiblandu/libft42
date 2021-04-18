@@ -1,0 +1,41 @@
+        -:    0:Source:/home/mihai/libft/str/ft_strncpy.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strncpy.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/str/ft_strncpy.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strncpy.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/05 17:48:48 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/05 18:13:30 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+        -:   15:
+    #####:   16:char	*ft_strncpy(char *dst, const char *src, size_t len)
+        -:   17:{
+        -:   18:	size_t i;
+        -:   19:
+    #####:   20:	i = 0;
+    #####:   21:	while (src[i] && i < len)
+    %%%%%:   21-block  0
+    %%%%%:   21-block  1
+    %%%%%:   21-block  2
+        -:   22:	{
+    #####:   23:		dst[i] = src[i];
+    #####:   24:		i++;
+    %%%%%:   24-block  0
+        -:   25:	}
+    #####:   26:	while (i < len)
+    %%%%%:   26-block  0
+    %%%%%:   26-block  1
+    #####:   27:		dst[i++] = '\0';
+    %%%%%:   27-block  0
+    #####:   28:	return (dst);
+    %%%%%:   28-block  0
+        -:   29:}

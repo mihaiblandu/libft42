@@ -1,0 +1,40 @@
+        -:    0:Source:/home/mihai/libft/strsub/ft_strtrim.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/strsub/ft_strtrim.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/strsub/ft_strtrim.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/23 08:21:42 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/23 11:55:36 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:char	*ft_strtrim(const char *s, const char *set)
+        -:   16:{
+        -:   17:	char	*ret;
+        -:   18:	size_t	len;
+        -:   19:
+    #####:   20:	while (*s && ft_strchr(set, *s))
+    %%%%%:   20-block  0
+    %%%%%:   20-block  1
+    %%%%%:   20-block  2
+    #####:   21:		s++;
+    %%%%%:   21-block  0
+    #####:   22:	len = ft_strlen(s);
+    %%%%%:   22-block  0
+    #####:   23:	while (len && ft_strchr(set, s[len]))
+    %%%%%:   23-block  0
+    %%%%%:   23-block  1
+    #####:   24:		len--;
+    %%%%%:   24-block  0
+    #####:   25:	ret = ft_strsub(s, 0, len);
+    %%%%%:   25-block  0
+    #####:   26:	return (ret);
+        -:   27:}

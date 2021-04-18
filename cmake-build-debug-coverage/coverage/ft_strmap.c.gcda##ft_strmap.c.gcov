@@ -1,0 +1,43 @@
+        -:    0:Source:/home/mihai/libft/striter/ft_strmap.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/striter/ft_strmap.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/striter/ft_strmap.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strmap.c                                        :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/22 22:40:06 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/22 22:48:29 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:
+        -:   14:#include "../libft.h"
+        -:   15:
+    #####:   16:char*       ft_strmap(char *s, char (*f)(char))
+        -:   17:{   
+        -:   18:    int     len;
+        -:   19:    int     i;
+        -:   20:    char*   temp;
+        -:   21:
+    #####:   22:    i = 0;
+    #####:   23:    len = ft_strlen(s);
+    %%%%%:   23-block  0
+    #####:   24:    if(!len)
+    #####:   25:        return (NULL);
+    %%%%%:   25-block  0
+    #####:   26:    temp = ft_strnew(len);
+    %%%%%:   26-block  0
+    #####:   27:    while (s[i] != '\0')
+    %%%%%:   27-block  0
+        -:   28:    {
+    #####:   29:        temp[i] = f(s[i]);
+    %%%%%:   29-block  0
+    #####:   30:        i++;
+        -:   31:    }
+    #####:   32:    return (temp);
+    %%%%%:   32-block  0
+        -:   33:}

@@ -1,0 +1,50 @@
+        -:    0:Source:/home/mihai/libft/strsub/ft_strjoin.c
+        -:    0:Graph:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/strsub/ft_strjoin.c.gcno
+        -:    0:Data:/home/mihai/libft/cmake-build-debug-coverage/CMakeFiles/libft.dir/strsub/ft_strjoin.c.gcda
+        -:    0:Runs:1
+        -:    1:/* ************************************************************************** */
+        -:    2:/*                                                                            */
+        -:    3:/*                                                        :::      ::::::::   */
+        -:    4:/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+        -:    5:/*                                                    +:+ +:+         +:+     */
+        -:    6:/*   By: mihai <mihai@student.42.fr>                +#+  +:+       +#+        */
+        -:    7:/*                                                +#+#+#+#+#+   +#+           */
+        -:    8:/*   Created: 2020/11/23 01:39:03 by mihai             #+#    #+#             */
+        -:    9:/*   Updated: 2020/11/23 01:59:52 by mihai            ###   ########.fr       */
+        -:   10:/*                                                                            */
+        -:   11:/* ************************************************************************** */
+        -:   12:
+        -:   13:#include "../libft.h"
+        -:   14:
+    #####:   15:char*   ft_strjoin(char const *s1, char const *s2)
+        -:   16:{
+        -:   17:    size_t j;
+        -:   18:    char   *tmp;
+        -:   19:
+    #####:   20:    j = ft_strlen(s1) + ft_strlen(s2);
+    %%%%%:   20-block  0
+    #####:   21:    tmp = ft_strnew(j);
+    #####:   22:    j = 0;
+    #####:   23:    if(!tmp)
+    #####:   24:        return(NULL);
+    %%%%%:   24-block  0
+    #####:   25:    while (s1[j])
+    %%%%%:   25-block  0
+    %%%%%:   25-block  1
+        -:   26:    {
+    #####:   27:        tmp[j] = s1[j];
+    #####:   28:        j++;
+    %%%%%:   28-block  0
+        -:   29:    }
+    #####:   30:    while (*s2)
+    %%%%%:   30-block  0
+    %%%%%:   30-block  1
+        -:   31:    {
+    #####:   32:        tmp[j] = *s2;
+    #####:   33:        j++;
+    #####:   34:        s2++;
+    %%%%%:   34-block  0
+        -:   35:    }
+    #####:   36:    return (tmp);
+    %%%%%:   36-block  0
+        -:   37:}
